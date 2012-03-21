@@ -648,8 +648,8 @@ namespace boost
             , const CharT opening_brace, const CharT closing_brace)
         {
             using namespace std;
-            const wchar_t minus = lcast_char_constants<wchar_t>::minus;
-            const wchar_t plus = lcast_char_constants<wchar_t>::plus;
+            const CharT minus = lcast_char_constants<CharT>::minus;
+            const CharT plus = lcast_char_constants<CharT>::plus;
             const int inifinity_size = 8;
 
             bool has_minus = false;
